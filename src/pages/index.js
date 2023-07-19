@@ -215,19 +215,19 @@ export default function Home() {
   function getColor(value) {
     switch (value) {
       case 2:
-        return 'bg-yellow-300';
+        return 'bg-yellow-100';
       case 4:
-        return 'bg-yellow-400';
+        return 'bg-yellow-300';
       case 8:
         return 'bg-yellow-500';
       case 16:
-        return 'bg-yellow-600';
-      case 32:
         return 'bg-yellow-700';
+      case 32:
+        return 'bg-orange-300';
       case 64:
-        return 'bg-yellow-800';
+        return 'bg-orange-500';
       case 128:
-        return 'bg-yellow-900';
+        return 'bg-orange-700';
       case 256:
         return 'bg-red-500';
       default:
